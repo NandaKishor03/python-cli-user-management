@@ -26,7 +26,7 @@ save_to_file(username, email, password)
 ```
 1. Creates a dictionary user_data to hold the user's information.
 2. Uses a try-except block to handle file operations:
-*   Tries to open user_details.json in read mode ("r"). If the file exists, it loads the existing JSON data into the data dictionary. If the file does not exist or if the json is corrupted, it initializes an empty dictionary data = {}. This is how we append new users without erasing the old ones.
+* Tries to open user_details.json in read mode ("r"). If the file exists, it loads the existing JSON data into the data dictionary. If the file does not exist or if the json is corrupted, it initializes an empty dictionary data = {}. This is how we append new users without erasing the old ones.
 * Adds the new user_data to the data dictionary, using the username as the key.
 * Opens user_details.json in write mode ("w") and saves the updated data dictionary to the file using json.dump() with indent=4 for formatting.
 3. Prints a "User details saved successfully!" message.
