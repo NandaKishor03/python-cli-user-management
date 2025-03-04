@@ -1,4 +1,4 @@
-# Python-CLI-User_Auth
+# Python-CLI-User_Auth TASK-1
 ## Requirements
 
 **Python**: Python 3.x is required. It's recommended to use a recent version for best compatibility and security.
